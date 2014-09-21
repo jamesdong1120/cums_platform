@@ -4,7 +4,7 @@
 <html>
 <head>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<title>欢迎使用Koala</title>
+<title>欢迎使用CUMS实时监控系统</title>
 <link href="<c:url value='/lib/bootstrap/css/bootstrap.min.css' />"   rel="stylesheet">
 <script type="text/javascript" src="<c:url value='/lib/jquery-1.8.3.min.js' />"></script>
 <script type="text/javascript" src="<c:url value='/lib/respond.min.js' />"></script>
@@ -22,6 +22,7 @@
 body {
 	margin: 0;
 	padding: 0;
+	/* background-image: url(images/background/cumsBodybg.jpg); */
 }
 
 .head {
@@ -41,8 +42,8 @@ body {
 }
 
 .logo img {
-	height: 90px;
-	width: 200px;
+	height: 70px;
+	width: 250px;
 	overflow: hidden;
 	float: left;
 }
@@ -50,10 +51,10 @@ body {
 .logo div {
 	font-size: 24px;
 	color: #666;
-	height: 40px;
+	height: 50px;
 	float: left;
-	line-height: 60px;
-	margin: 20px 10px;
+	line-height: 70px;
+	margin: 10px 10px;
 	padding: 10px;
 	border-left: 1px solid #d2d2d2;
 }
@@ -74,15 +75,17 @@ body {
 
 .login_con_R {
 	float: left;
-	width: 376px;
+	width: 550px;
 	height: 332px;
 	border: 1px solid #dce7f4;
+	margin-left:150px;
+	
 }
 
 .login_con_R h4 {
 	background: #F2F2F2;
 	line-height: 36px;
-	width: 376px;
+	width: 550px;
 	padding: 0px 6px;
 	border: 1px solid #fff;
 	border-bottom: 1px solid #d4d4d4;
@@ -135,13 +138,13 @@ body {
 <body>
 	<div class="head"></div>
 	<div class="logo">
-		<img src="images/background/logo.gif" />
-		<div>Koala系统</div>
+		<img src="images/background/cumsLogo.png" />
+		<div>CUMS 准实时监控系统</div>
 	</div>
 	<div class="login_con">
-		<div class="login_con_L">
+		<!-- <div class="login_con_L">
 			<img src="images/background/login_img.gif" />
-		</div>
+		</div> -->
 		<div class="login_con_R">
 			<h4>登录</h4>
 			<FORM id="loginFormId" method=post action="j_spring_security_check" class="form-horizontal">
@@ -165,7 +168,7 @@ body {
 			</FORM>
 		</div>
 	</div>
-	<div class="login_footer">Koala 版权信息 2013</div>
+	<div class="login_footer">PCCW 版权信息 2014</div>
 	<script>
     $(function(){
      	var btnLogin = $('#loginBtn');

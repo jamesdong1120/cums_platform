@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <title>Koala权限系统</title>
+    <title>CUMS权限系统</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link href="<c:url value='/lib/bootstrap/css/bootstrap.min.css' />"   rel="stylesheet">
     <link href="<c:url value='/css/main.css' />?time=<%=time%>" rel="stylesheet">
@@ -57,7 +57,7 @@
 	    </div>
 	</div>
 	<div id="footer" class="g-foot">
-	    <span>Copyright © 2011-2013 Koala</span>
+	    <span>Copyright © 2011-2013 CUMS</span>
 	</div>
 	<script type="text/javascript" src="<c:url value='/lib/jquery-1.8.3.min.js' />"></script>
 	<script type="text/javascript" src="<c:url value='/lib/respond.min.js' />"></script>
